@@ -1,0 +1,26 @@
+// var reader1 = new Reader({
+// 		path:'C:\\Users\\JUN\\AppData\\Roaming\\poi\\battle-records',
+// 	}),
+//     reader2 = new Reader({
+// 		path:'C:\\Users\\JUN\\AppData\\Roaming\\poi\\battle-records',
+// 		title_filter_regexp:/Copy \(2\)/
+// 	}),
+// 	reader3 = new Reader({
+// 		path:'C:\\Users\\JUN\\AppData\\Roaming\\poi\\battle-records',
+// 		title_filter_regexp:/Copy \(3\)/
+// 	});
+// reader1.on('finish',function(){
+// 	console.log('1finish');
+// 	var curdate=(new Date()).valueOf();
+// 	console.log('TimeStamp::1Reader_construct_finish: '+curdate+' '+(curdate-lastdate)+'ms');
+// })
+// reader2.on('finish',function(){
+// 	console.log('2finish');
+// 	var curdate=(new Date()).valueOf();
+// 	console.log('TimeStamp::2Reader_construct_finish: '+curdate+' '+(curdate-lastdate)+'ms');
+// })
+// reader3.on('finish',function(){
+// 	console.log('3finish');
+// 	var curdate=(new Date()).valueOf();
+// 	console.log('TimeStamp::3Reader_construct_finish: '+curdate+' '+(curdate-lastdate)+'ms');
+// })
